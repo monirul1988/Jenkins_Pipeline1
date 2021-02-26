@@ -14,7 +14,7 @@ pipeline {
             }
             stage('Deploy') {
                   steps {
-                        echo "Deploying in Staging Area for QA"
+                        echo "Deploying in Staging Area for QA staging"
                   }
             }
             stage('Deploy Production') {
