@@ -12,7 +12,7 @@ pipeline {
                 }
             }
         }
-        stage('Deploy in Staging Environment'){
+        stage('Deploy in QA Environment'){
             steps{
                 build job: 'Deploy_to_QA_DSL'
 
