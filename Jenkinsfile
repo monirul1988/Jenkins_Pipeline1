@@ -14,7 +14,11 @@ pipeline {
             }
             stage('Deploy') {
                   steps {
-                        echo "Deploying in Staging Area "
+                        echo "Deploying in Dev "
+                  }
+            stage('Deploy') {
+                  steps {
+                        echo "Deploying in QA "
                   }
             }
             stage('Deploy Production') {
